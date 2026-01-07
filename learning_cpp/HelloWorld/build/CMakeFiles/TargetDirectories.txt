@@ -1,0 +1,3 @@
+/home/yuri/GPU programming/learning_cpp/HelloWorld/build/CMakeFiles/HelloWorld.dir
+/home/yuri/GPU programming/learning_cpp/HelloWorld/build/CMakeFiles/edit_cache.dir
+/home/yuri/GPU programming/learning_cpp/HelloWorld/build/CMakeFiles/rebuild_cache.dir
