@@ -1,0 +1,15 @@
+my learning : 
+
+1. understood project file structure - gained a little clarity on cmake and build script(build.sh)
+
+2. understood about linker by tinkering functions in various translation unit in the same project(also resolved concept of external symbol error during linking) 
+
+3. understood what is translation unit 
+
+4. understood basic flow of compilation (cleared some doubts of the previous day)
+
+5. explored datatypes(int,char,string,bool,double,float,auto) - looked at their sizes and their usages
+
+6. understood about type casting - tinkered a code and applied this concept
+
+7. attempted c++ quizes on w3school platform - (datatype)
