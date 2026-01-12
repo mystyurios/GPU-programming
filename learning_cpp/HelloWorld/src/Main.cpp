@@ -13,22 +13,22 @@ void multiplyAndlog(int a , int b){
 }
 // for(init;condition;operation after going through the body)
 int main(){
-    for (int i = 0; i < 5; i++){
-      log("hello world!");
-    }
-    log("========================");
-    int i = 0 ;
-    while(i<5){
-      log("hello world!");
-      i++;
-    }
     
-    log("========================");
-    do{
-     // the statement runs atleast once inside do while loop  
+  for (int i = 0; i < 5; i++){
+      if(i%2==0){
+        continue; // skip this step and go back to beginning
+      }
       log("hello world!");
-      
-    }while(i<5);
+      cout<<i<<endl;
+    }
+  int j = 0 ;
+  while(j<10){
+    if((j+1)%5==0){
+      break; // exit the loop 
+    }
+    cout<<"iteration number : "<<j+1<<endl;
+    j++;
+  }
     
-    return 0 ;
+    return 0 ; // not necessarily inside the loop f
 }
