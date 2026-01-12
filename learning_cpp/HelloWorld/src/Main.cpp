@@ -11,24 +11,24 @@ void log(const char*);
 void multiplyAndlog(int a , int b){
   cout<<multiply(a,b)<<endl;
 }
-
+// for(init;condition;operation after going through the body)
 int main(){
-    cout << "Hello world!" <<endl;
-    log("using declaration to use function in this program");
-    multiplyAndlog(3,2);
-    multiplyAndlog(8,5);
-    multiplyAndlog(90,45);
-  //  std::cin.get(); used for the console in windows to stay a little bit longer
-    cout<<"enter password : "<<endl;
-    string password ;
-    cin >> password ;
-    cout<<endl;
-    if (password == "1234"){
-      cout<<"password is correct "<<endl;
+    for (int i = 0; i < 5; i++){
+      log("hello world!");
     }
-    else
-    {
-      cout << "error!" <<endl;
+    log("========================");
+    int i = 0 ;
+    while(i<5){
+      log("hello world!");
+      i++;
     }
+    
+    log("========================");
+    do{
+     // the statement runs atleast once inside do while loop  
+      log("hello world!");
+      
+    }while(i<5);
+    
     return 0 ;
 }
