@@ -1,0 +1,17 @@
+january 12th 2026
+
+my learnings :
+
+1. learned precedence order
+
+2 . worked with conditionals 
+
+3. worked with control flow statements - break , return , continue 
+
+4. understood rand() and srand() and how srand(time(0)) gives new output every time to rand() by changing internal state 
+
+5. completed operator section in w3school
+
+6 worked with loops part 01 
+
+7. completed all code goals for today by you  
