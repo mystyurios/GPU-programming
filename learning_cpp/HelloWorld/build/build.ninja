@@ -63,6 +63,13 @@ build CMakeFiles/HelloWorld.dir/src/log.cpp.o: CXX_COMPILER__HelloWorld_unscanne
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/src
 
+build CMakeFiles/HelloWorld.dir/src/mod.cpp.o: CXX_COMPILER__HelloWorld_unscanned_Debug /home/yuri/GPU$ programming/learning_cpp/HelloWorld/src/mod.cpp || cmake_object_order_depends_target_HelloWorld
+  DEP_FILE = CMakeFiles/HelloWorld.dir/src/mod.cpp.o.d
+  FLAGS = -Wall -Werror -std=c++14 -g
+  INCLUDES = -I"/home/yuri/GPU programming/learning_cpp/HelloWorld/include"
+  OBJECT_DIR = CMakeFiles/HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/src
+
 build CMakeFiles/HelloWorld.dir/src/multiply.cpp.o: CXX_COMPILER__HelloWorld_unscanned_Debug /home/yuri/GPU$ programming/learning_cpp/HelloWorld/src/multiply.cpp || cmake_object_order_depends_target_HelloWorld
   DEP_FILE = CMakeFiles/HelloWorld.dir/src/multiply.cpp.o.d
   FLAGS = -Wall -Werror -std=c++14 -g
@@ -78,7 +85,7 @@ build CMakeFiles/HelloWorld.dir/src/multiply.cpp.o: CXX_COMPILER__HelloWorld_uns
 #############################################
 # Link the executable HelloWorld
 
-build HelloWorld: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/src/Main.cpp.o CMakeFiles/HelloWorld.dir/src/log.cpp.o CMakeFiles/HelloWorld.dir/src/multiply.cpp.o
+build HelloWorld: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/src/Main.cpp.o CMakeFiles/HelloWorld.dir/src/log.cpp.o CMakeFiles/HelloWorld.dir/src/mod.cpp.o CMakeFiles/HelloWorld.dir/src/multiply.cpp.o
   FLAGS = -Wall -Werror -std=c++14 -g
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   POST_BUILD = :

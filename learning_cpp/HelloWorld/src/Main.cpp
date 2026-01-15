@@ -1,6 +1,7 @@
 #include<iostream>
 // #include "Log.h"
 #include<string>
+#include "Mod.h"
 using namespace std ; 
 void log(const char*);
 
@@ -33,11 +34,21 @@ void log(const char*);
 //     return 0 ; // not necessarily inside the loop 
 
 
+
+
 int main(){
-  int var = 8 ;
-  int* ptr = &var ; 
+  // int var = 8 ;
+  // int* ptr = &var ; 
   // pointer is holding address -> 0 is not a valid memory address or null
-  *ptr = 10 ; // can access and write data 
-  cout<<var<<endl;
+  // *ptr = 10 ; // can access and write data 
+  // cout<<var<<endl;
+
+  int a = 2;
+  cout<< "value of a currently is : "<<a<<endl;
+  modify(&a);
+ 
+  cout<<a<<endl;
+  return 0 ;
+  
 
 }
